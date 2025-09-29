@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - MacPulse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .logo {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+        }
+        
+        h2 {
+            color: #764ba2;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        h3 {
+            color: #667eea;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: white;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .faq-item h3 {
+            margin-top: 0;
+        }
+        
+        .links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .link-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .link-card a {
+            display: block;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">💻📱</div>
+            <h1>MacPulse Support</h1>
+            <p class="subtitle">We're here to help you control your Mac remotely</p>
+        </div>
+
+        <div class="contact-box">
+            <h2>Need Help?</h2>
+            <p>Email us at: <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></p>
+            <p>We typically respond within 24-48 hours</p>
+        </div>
+
+        <h2>Quick Links</h2>
+        <div class="links">
+            <div class="link-card">
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="link-card">
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I pair my iPhone with my Mac?</h3>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Install MacPulseHelper on your Mac</li>
+                <li>Sign into the same iCloud account on both devices</li>
+                <li>On your Mac, click the MacPulse menu bar icon and select "Pair New Device"</li>
+                <li>A 6-digit code will appear</li>
+                <li>Open MacPulse on your iPhone and tap "Pair Device"</li>
+                <li>Enter the 6-digit code</li>
+                <li>Wait for confirmation (usually 5-10 seconds)</li>
+            </ol>
+        </div>
+
+        <div class="faq-item">
+            <h3>Why isn't my Mac responding to commands?</h3>
+            <p><strong>Common solutions:</strong></p>
+            <ul>
+                <li>Make sure MacPulseHelper is running on your Mac (check menu bar)</li>
+                <li>Verify both devices are signed into the same iCloud account</li>
+                <li>Check that you have an active internet connection on both devices</li>
+                <li>Try unpairing and re-pairing your devices</li>
+                <li>Make sure your Mac isn't in sleep mode or powered off</li>
+            </ul>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I grant Accessibility permissions on Mac?</h3>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                <li>Open System Settings on your Mac</li>
+                <li>Go to Privacy & Security → Accessibility</li>
+                <li>Click the lock icon and enter your password</li>
+                <li>Enable MacPulseHelper in the list</li>
+                <li>If prompted, restart MacPulseHelper</li>
+            </ol>
+        </div>
+
+        <div class="faq-item">
+            <h3>I'm getting "iCloud not available" error</h3>
+            <p><strong>Solutions:</strong></p>
+            <ul>
+                <li>Go to Settings → [Your Name] and verify you're signed into iCloud</li>
+                <li>Check that iCloud Drive is enabled</li>
+                <li>Try signing out and back into iCloud (this will re-sync)</li>
+                <li>Check your internet connection</li>
+                <li>Wait a few minutes - iCloud sometimes has temporary outages</li>
+            </ul>
+        </div>
+
+        <div class="faq-item">
+            <h3>The pairing code times out - what should I do?</h3>
+            <p>Pairing codes expire after 5 minutes for security. If you miss the window:</p>
+            <ul>
+                <li>Generate a new code on your Mac</li>
+                <li>Make sure you're near your Mac when pairing (for first-time setup)</li>
+                <li>Type the code quickly - you have 5 minutes</li>
+                <li>Check that iCloud is working on both devices</li>
+            </ul>
+        </div>
+
+        <div class="faq-item">
+            <h3>Can I pair multiple iPhones to one Mac?</h3>
+            <p>Yes! Each iPhone can be paired independently. Just repeat the pairing process for each device.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I unpair my devices?</h3>
+            <p><strong>On iPhone:</strong></p>
+            <ul>
+                <li>Open MacPulse</li>
+                <li>Go to Settings tab</li>
+                <li>Tap "Unpair All Devices"</li>
+            </ul>
+            <p><strong>On Mac:</strong></p>
+            <ul>
+                <li>Click MacPulse menu bar icon</li>
+                <li>Select "Unpair All Devices"</li>
+            </ul>
+        </div>
+
+        <div class="faq-item">
+            <h3>Is my data secure?</h3>
+            <p>Yes! MacPulse uses:</p>
+            <ul>
+                <li>Your private iCloud database (only you can access it)</li>
+                <li>HMAC-SHA256 cryptographic signatures</li>
+                <li>Device-specific pairing with unique shared secrets</li>
+                <li>Automatic deletion of commands after execution</li>
+                <li>No third-party servers or analytics</li>
+            </ul>
+            <p>See our <a href="privacy.html">Privacy Policy</a> for more details.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What are the system requirements?</h3>
+            <p><strong>iPhone:</strong> iOS 16 or later</p>
+            <p><strong>Mac:</strong> macOS 13 (Ventura) or later</p>
+            <p><strong>Other:</strong> Active iCloud account, internet connection</p>
+        </div>
+
+        <h2>Still Need Help?</h2>
+        <p>If your question isn't answered above, please email us with:</p>
+        <ul>
+            <li>A description of your issue</li>
+            <li>What you've already tried</li>
+            <li>Your iOS and macOS versions</li>
+            <li>Screenshots (if applicable)</li>
+        </ul>
+        <p>Email: <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></p>
+
+        <div class="footer">
+            <p>MacPulse © 2025 Alexandru Grajdeanu. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
