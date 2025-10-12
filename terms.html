@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MacPulse Terms of Service - Legal terms for using MacPulse">
     <title>Terms of Service - MacPulse</title>
     <style>
         * {
@@ -37,52 +38,68 @@
         }
         
         .logo {
-            font-size: 48px;
-            margin-bottom: 10px;
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
         }
         
         h1 {
             color: #667eea;
-            font-size: 32px;
+            font-size: 2.5em;
             margin-bottom: 10px;
         }
         
         .last-updated {
-            color: #666;
-            font-size: 14px;
-            font-style: italic;
+            background: #f0f4ff;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #667eea;
+            font-weight: 500;
         }
         
         h2 {
-            color: #764ba2;
-            font-size: 24px;
+            color: #667eea;
+            font-size: 1.8em;
             margin-top: 30px;
             margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f4ff;
         }
         
         h3 {
-            color: #667eea;
-            font-size: 18px;
+            color: #764ba2;
+            font-size: 1.3em;
             margin-top: 20px;
             margin-bottom: 10px;
         }
         
         p {
             margin-bottom: 15px;
+            color: #555;
         }
         
         ul, ol {
-            margin-left: 30px;
+            margin-left: 20px;
             margin-bottom: 15px;
         }
         
         li {
             margin-bottom: 8px;
+            color: #555;
         }
         
         a {
             color: #667eea;
             text-decoration: none;
+            font-weight: 500;
         }
         
         a:hover {
@@ -92,29 +109,73 @@
         .warning-box {
             background: #fff3cd;
             border-left: 4px solid #ffc107;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-        
-        .warning-box p {
-            margin-bottom: 0;
-        }
-        
-        .contact-info {
-            background: #f8f9fa;
             padding: 20px;
+            margin: 20px 0;
             border-radius: 8px;
-            margin-top: 30px;
+        }
+        
+        .warning-box h3 {
+            margin-top: 0;
+            color: #856404;
+        }
+
+        .warning-box p {
+            margin-bottom: 10px;
+        }
+        
+        .contact-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: white;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .contact-section a {
+            color: white;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+            padding-bottom: 2px;
+        }
+
+        .contact-section a:hover {
+            opacity: 0.8;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .nav-links a {
+            color: #667eea;
+            font-weight: 600;
         }
         
         .footer {
             text-align: center;
             margin-top: 40px;
             padding-top: 20px;
-            border-top: 1px solid #ddd;
-            color: #666;
-            font-size: 14px;
+            border-top: 1px solid #e0e0e0;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #667eea;
         }
         
         @media (max-width: 768px) {
@@ -123,11 +184,16 @@
             }
             
             h1 {
-                font-size: 24px;
+                font-size: 2em;
             }
             
             h2 {
-                font-size: 20px;
+                font-size: 1.5em;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 10px;
             }
         }
     </style>
@@ -137,33 +203,53 @@
         <div class="header">
             <div class="logo">💻📱</div>
             <h1>Terms of Service</h1>
-            <p class="last-updated">Last Updated: September 29, 2025</p>
         </div>
 
-        <h2>Acceptance of Terms</h2>
+        <div class="nav-links">
+            <a href="support.html">Support</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+
+        <div class="last-updated">
+            Last Updated: January 2025
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
         <p>By downloading, installing, or using MacPulse (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.</p>
 
-        <h2>Description of Service</h2>
+        <h2>2. Description of Service</h2>
         <p>MacPulse is a remote control application that allows you to:</p>
         <ul>
-            <li>Lock your Mac's screen</li>
-            <li>Put your Mac to sleep</li>
-            <li>Shutdown your Mac</li>
-            <li>Pair devices securely through iCloud</li>
+            <li>Lock your Mac's screen remotely</li>
+            <li>Put your Mac to sleep remotely</li>
+            <li>Shutdown your Mac remotely</li>
+            <li>Pair up to 3 Mac devices securely through iCloud</li>
         </ul>
         <p>The App consists of:</p>
         <ul>
-            <li>MacPulse iOS app (for iPhone)</li>
-            <li>MacPulseHelper Mac app (for macOS)</li>
+            <li><strong>MacPulse iOS app</strong> (for iPhone)</li>
+            <li><strong>MacPulseHelper Mac app</strong> (for macOS)</li>
         </ul>
         <p>Both apps are required for the service to function.</p>
 
-        <h2>User Responsibilities</h2>
+        <h2>3. Free Service</h2>
+        <p>MacPulse is provided completely free of charge with:</p>
+        <ul>
+            <li>✅ No advertisements</li>
+            <li>✅ No subscriptions</li>
+            <li>✅ No in-app purchases</li>
+            <li>✅ No hidden fees</li>
+        </ul>
+        <p>All features are included at no cost.</p>
+
+        <h2>4. User Responsibilities</h2>
         
         <h3>You Are Responsible For:</h3>
         <ol>
-            <li><strong>Your Commands:</strong> You are solely responsible for any commands you send through MacPulse. This includes ensuring you intend to execute the command before confirming.</li>
+            <li><strong>Your Commands:</strong> You are solely responsible for any commands you send through MacPulse. Ensure you intend to execute the command before confirming.</li>
+            
             <li><strong>Data Loss:</strong> The shutdown command will close all applications and power off your Mac. <strong>You are responsible for saving your work before sending a shutdown command.</strong> We are not liable for any data loss resulting from your use of the App.</li>
+            
             <li><strong>Device Security:</strong> You are responsible for:
                 <ul>
                     <li>Keeping your iPhone secure and locked when not in use</li>
@@ -172,28 +258,36 @@
                     <li>Protecting your iCloud account credentials</li>
                 </ul>
             </li>
+            
             <li><strong>Network Security:</strong> Commands are transmitted through your iCloud account. You are responsible for securing your iCloud account with a strong password and two-factor authentication.</li>
+            
             <li><strong>Intended Use:</strong> MacPulse is designed for personal use to control your own Mac computer. You may not use MacPulse to:
                 <ul>
                     <li>Control computers you do not own or have authorization to control</li>
                     <li>Harass, harm, or disrupt others</li>
                     <li>Violate any laws or regulations</li>
                     <li>Attempt to bypass security measures</li>
+                    <li>Abuse rate limits or flood systems</li>
                 </ul>
             </li>
         </ol>
 
-        <h2>Requirements</h2>
+        <h2>5. Requirements</h2>
         <p>To use MacPulse, you must:</p>
         <ul>
-            <li>Have an active iCloud account</li>
+            <li>Have an active iCloud account (free)</li>
             <li>Be signed into the same iCloud account on both your iPhone and Mac</li>
-            <li>Grant necessary permissions (iCloud, Accessibility on Mac)</li>
-            <li>Have an internet connection</li>
-            <li>Use compatible devices (iOS 16+ and macOS 13+)</li>
+            <li>Grant necessary permissions (iCloud access, Accessibility on Mac)</li>
+            <li>Have an internet connection on both devices</li>
+            <li>Use compatible devices:
+                <ul>
+                    <li>iOS 16.0 or later</li>
+                    <li>macOS 13.0 (Ventura) or later</li>
+                </ul>
+            </li>
         </ul>
 
-        <h2>Disclaimers</h2>
+        <h2>6. Disclaimers</h2>
         
         <h3>AS-IS Service</h3>
         <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
@@ -216,7 +310,8 @@
 
         <div class="warning-box">
             <h3>⚠️ Data Loss Warning</h3>
-            <p><strong>IMPORTANT:</strong> The shutdown command will forcibly power off your Mac. All unsaved work may be lost. Applications may not have time to save data. We strongly recommend:</p>
+            <p><strong>IMPORTANT:</strong> The shutdown command will forcibly power off your Mac. All unsaved work may be lost. Applications may not have time to save data.</p>
+            <p><strong>We strongly recommend:</strong></p>
             <ul>
                 <li>Saving your work before sending a shutdown command</li>
                 <li>Using sleep or lock commands for temporary disconnection</li>
@@ -224,19 +319,21 @@
             </ul>
         </div>
 
-        <h2>Limitation of Liability</h2>
+        <h2>7. Limitation of Liability</h2>
         <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</p>
         <ol>
             <li><strong>No Liability for Damages:</strong> We shall not be liable for any direct, indirect, incidental, consequential, special, or punitive damages resulting from your use or inability to use the App, including but not limited to:
                 <ul>
-                    <li>Data loss</li>
+                    <li>Data loss or corruption</li>
                     <li>Lost profits or revenue</li>
                     <li>Business interruption</li>
                     <li>Loss of goodwill</li>
                     <li>Hardware or software damage</li>
                 </ul>
             </li>
-            <li><strong>Maximum Liability:</strong> Our total liability for any claims related to the App shall not exceed the amount you paid for the App (if any).</li>
+            
+            <li><strong>Maximum Liability:</strong> Since MacPulse is provided free of charge, our total liability for any claims related to the App shall not exceed $0 (zero dollars).</li>
+            
             <li><strong>User Actions:</strong> We are not responsible for any damages caused by your use of the App, including damages resulting from:
                 <ul>
                     <li>Sending unintended commands</li>
@@ -247,28 +344,43 @@
             </li>
         </ol>
 
-        <h2>Privacy and Data</h2>
+        <h2>8. Privacy and Data</h2>
         <p>Your use of MacPulse is also governed by our <a href="privacy.html">Privacy Policy</a>. By using the App, you consent to our data practices as described in the Privacy Policy.</p>
+        <p><strong>Key Privacy Points:</strong></p>
+        <ul>
+            <li>No personal data collection</li>
+            <li>No analytics or tracking</li>
+            <li>No advertisements</li>
+            <li>All data stored in your private iCloud database</li>
+        </ul>
 
-        <h2>Intellectual Property</h2>
-        <p>MacPulse and all associated intellectual property rights are owned by Alexandru Grajdeanu. You are granted a limited, non-exclusive, non-transferable license to use the App for personal purposes. You may not:</p>
+        <h2>9. Intellectual Property</h2>
+        <p>MacPulse and all associated intellectual property rights are owned by Alexandru Grajdeanu. You are granted a limited, non-exclusive, non-transferable license to use the App for personal purposes.</p>
+        <p><strong>You may not:</strong></p>
         <ul>
             <li>Reverse engineer, decompile, or disassemble the App</li>
             <li>Copy, modify, or create derivative works</li>
             <li>Distribute or resell the App</li>
             <li>Remove or alter any copyright notices</li>
+            <li>Use the App for commercial purposes</li>
         </ul>
 
-        <h2>Third-Party Services</h2>
-        <p>MacPulse relies on Apple's iCloud and CloudKit services. Your use of these services is subject to Apple's terms and conditions. We are not responsible for Apple's services or any interruptions thereof.</p>
+        <h2>10. Third-Party Services</h2>
+        <p>MacPulse relies on Apple's iCloud and CloudKit services. Your use of these services is subject to Apple's terms and conditions. We are not responsible for:</p>
+        <ul>
+            <li>Apple's services or any interruptions thereof</li>
+            <li>Changes to Apple's policies or APIs</li>
+            <li>iCloud service availability or performance</li>
+        </ul>
 
-        <h2>Termination</h2>
+        <h2>11. Termination</h2>
         
         <h3>Your Rights</h3>
         <p>You may stop using the App at any time by:</p>
         <ul>
             <li>Uninstalling the iOS and Mac apps</li>
             <li>Unpairing your devices through Settings</li>
+            <li>Disabling iCloud access for MacPulse</li>
         </ul>
 
         <h3>Our Rights</h3>
@@ -278,14 +390,15 @@
             <li>Modify or update the App</li>
             <li>Refuse service to anyone for any reason</li>
         </ul>
-        <p>Upon termination:</p>
+        
+        <p><strong>Upon termination:</strong></p>
         <ul>
             <li>Your license to use the App ends immediately</li>
             <li>You must delete all copies of the App</li>
             <li>Data stored in your CloudKit database may persist (you can delete it manually)</li>
         </ul>
 
-        <h2>Updates and Modifications</h2>
+        <h2>12. Updates and Modifications</h2>
         
         <h3>App Updates</h3>
         <p>We may release updates to improve functionality, fix bugs, or add features. Updates may be:</p>
@@ -304,13 +417,13 @@
         </ul>
         <p>Continued use after changes constitutes acceptance of the updated Terms.</p>
 
-        <h2>Age Requirements</h2>
+        <h2>13. Age Requirements</h2>
         <p>You must be at least 13 years old to use MacPulse. If you are under 18, you must have parental consent to use the App.</p>
 
-        <h2>Governing Law</h2>
+        <h2>14. Governing Law</h2>
         <p>These Terms are governed by the laws of Romania, without regard to conflict of law principles. Any disputes shall be resolved in the courts of Romania.</p>
 
-        <h2>Acknowledgment</h2>
+        <h2>15. Acknowledgment</h2>
         <p>By using MacPulse, you acknowledge that:</p>
         <ul>
             <li>You have read and understood these Terms</li>
@@ -318,18 +431,24 @@
             <li>You understand the risks associated with remote Mac control</li>
             <li>You are responsible for any data loss resulting from your use</li>
             <li>You will use the App responsibly and legally</li>
+            <li>You will not attempt to abuse or exploit the service</li>
         </ul>
 
-        <div class="contact-info">
+        <div class="contact-section">
             <h2>Contact Information</h2>
             <p>For questions about these Terms:</p>
             <p><strong>Email:</strong> <a href="mailto:grajdeanu.alex@gmail.com">grajdeanu.alex@gmail.com</a></p>
-            <p><strong>Website:</strong> <a href="support.html">Support Page</a></p>
+            <p><strong>Support:</strong> <a href="support.html">https://mr-grj.github.io/support.html</a></p>
         </div>
 
         <div class="footer">
             <p>These Terms of Service are effective as of the "Last Updated" date above and apply to all users of MacPulse.</p>
+            <p><strong>MacPulse</strong> - Control your Mac remotely</p>
             <p>© 2025 Alexandru Grajdeanu. All rights reserved.</p>
+            <p style="margin-top: 15px;">
+                <a href="privacy.html">Privacy Policy</a> • 
+                <a href="support.html">Support</a>
+            </p>
         </div>
     </div>
 </body>
